@@ -1,0 +1,281 @@
+/* HEADING SECTION */
+body
+{
+  margin:0;
+}
+h1 {
+  font-family: "Inter";
+  font-size: 3rem;
+  color: white;
+  line-height: 1.5;
+}
+
+h2
+{color:white;
+  font-size: 2.5rem;
+  line-height: 4rem;
+
+}
+h3
+{
+  font-size: 2.5rem;
+  text-align: center;
+
+  color:white;
+  font-weight: bolder;
+}
+
+em{
+  color:white;
+}
+
+/* TITLE SECTION*/
+
+#title {
+  background-color: #ff4c68;
+}
+.container-fluid {
+  padding: 3% 15% 9%;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+
+.navbar-brand {
+  font-family: "Sacramento";
+  font-size: 2.5rem;
+  font-weight: bolder;
+}
+
+.iphone {
+  transform: rotate(25deg);
+
+  width: 20%;
+  position:absolute;
+right:22%
+
+}
+
+.nav-item {
+  padding: 0 15px;
+}
+
+.nav-link {
+  font-size: 1.1rem;
+  font-family: "Montserrat-light";
+}
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* FEATURES SECTION*/
+
+#features {
+  text-align: center;
+  padding:7% 15%;
+  background-color:#fff;
+/* z-index: 1; */
+position:relative;
+}
+
+.fea-img {
+  font-size: 2.7rem;
+  color: #ef8172;
+}
+
+
+
+.fea-img:hover {
+  color: #ff4c68;
+
+}
+
+.fea-p {
+  color: #8f8f8f;
+}
+
+.fea-h3 {
+  margin-top: 1rem;
+  font-size: 1.5rem;
+ font-family: "Montserrat";
+ color:black;
+
+}
+.fea-col
+{
+  padding:1% 2%;
+}
+
+/* TESTIMONIALS SECTION*/
+
+#testimonials
+{
+  background-color:  #ff4c68;
+  text-align: center;
+  padding:7% 15%;
+  font-family: "Montserrat";
+
+}
+
+/* PRESS SECTION*/
+
+#press
+{
+  text-align: center;
+  background-color:  #ff4c68;
+  padding-bottom: 8%;
+}
+.testimonial-image
+{
+  border-radius: 100%;
+width:15rem;
+margin:5% 10%;
+
+}
+.carousel-item
+{
+    padding:7% 15%;
+}
+
+/* PRICING SECTION*/
+
+#pricing
+{
+  text-decoration-color: black;
+font-color:black;
+text-align: center;
+}
+.card-footer{
+  background-color: grey;
+}
+.card
+{
+  border: 0.2rem solid grey;
+  text-align: center;
+  margin: 3rem 5rem;;
+}
+.h2-card
+{
+  color:black;
+  font-size: 2rem;
+  font-family: "Sacramento";
+  font-weight: normal;
+}
+.h3-card
+{
+  font-family: "Sacramento";
+  font-weight: bold;
+}
+.card-text
+{
+  color:grey;
+  font-style: "Montserrat";
+  font-weight: 500;
+}
+.card-button
+{
+  background-color: white;
+}
+.card-button:hover
+{
+  background-color: grey;
+}
+/* MEDIA QUERY SECTION */
+
+@media  screen and (max-width:950px)
+{
+#title
+{
+  text-align: center;
+
+
+}
+.download-button
+{
+  font-size: 13px;
+
+}
+h1
+{
+  line-height: 70px;
+  font-size: 40px;
+  font-family: "Montserrat";
+  font-weight: normal;
+}
+#testimonials
+{
+  font-size: 5px;
+}
+h2
+{
+  font-size: 20px;
+}
+
+
+.h3-cta
+{
+  font-size: 30px;
+  text-align: center;
+  font-family: "Montserrat";
+  color:white;
+  font-weight: bolder;
+
+}
+.h3-card
+{
+  color:black;
+}
+.iphone
+{
+height:20rem;
+width:10rem;
+padding-top: 20px;
+  position: static;
+  transform: rotate(0deg);
+}
+em
+{position: static;
+  font-size: 1rem;
+}
+#footer
+{
+  margin:0;
+  font-family: "Montserrat";
+  font-weight: normal;
+}
+
+}
+.testimonial-image
+{
+  padding: auto;
+  width:160px;
+}
+/* CTA SECTION */
+
+#cta
+{
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 6rem 0;
+}
+/* FOOTER SECTION*/
+
+#footer
+{
+  background-color: #ff4c68;
+  text-align: center;
+  margin-bottom: 0;
+}
+#footer p{
+  color:white;
+  margin-bottom:0;
+}
+
+.footer-icon
+{
+  margin:3rem 1rem;
+  font-size: 1.7rem;
+}
